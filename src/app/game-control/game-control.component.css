@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Custom styles for the buttons */
+.btn {
+  margin-right: 1px;
+  margin-left: 20px;
+  margin-top: 40px;
+
+}
+
+/* Custom styles for the main container */
+.container {
+  margin-top: 40px;
+}
+
+/* Custom styles for the nested container */
+.nested-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Custom styles for the heading */
+h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Custom styles for the game status */
+.game-status {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Custom styles for the game status during pause */
+.game-status.pause {
+  color: #dc3545; /* Red color during pause */
+}

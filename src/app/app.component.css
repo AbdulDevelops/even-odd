@@ -1,0 +1,40 @@
+/* header.component.scss */
+.header{
+  background-color: #5e86ad; /* Light gray background color */
+
+}
+/* Custom styles for the navbar */
+.navbar {
+  background-color: #5e86ad; /* Light gray background color */
+  padding: 10px 20px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1); /* Shadow to give a slight elevation */
+  color: #007bff;
+}
+
+/* Custom styles for the container */
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Custom styles for the heading */
+h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Custom styles for the nav links */
+.nav-link {
+  color: #333; /* Dark gray color for the links */
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffffff; /* Blue color on hover */
+  background-color: rgb(38, 16, 239);
+}
