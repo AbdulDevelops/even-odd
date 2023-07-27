@@ -19,7 +19,6 @@ constructor(){
 
 } */
   onStartGame(){
-
 this.interval=setInterval(()=>{
   this.count++;
   this.startingTheGame.emit(this.count);

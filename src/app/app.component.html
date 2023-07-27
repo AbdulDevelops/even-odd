@@ -27,7 +27,7 @@
     (startingTheGame)="GameStarting($event)">
     </app-game-control>
 
-    <app-odd [oddCount]="oddCounterValue"></app-odd>
-    <app-even [evenCount]="evenCounterValue"></app-even>
+    <app-odd *ngFor="let oddNumb of oddNumbers" [oddCount]="oddNumb"></app-odd>
+    <app-even *ngFor="let evenNumb of evenNumbers "[evenCount]="evenNumb"></app-even>
   </div>
 </div>

@@ -7,7 +7,7 @@ import { Component, OnInit,Input } from '@angular/core';
 })
 export class EvenComponent implements OnInit {
 
-  @Input() evenCount: number = 0;
+  @Input() evenCount: number|any = 0;
 
   //interval: any;
 

@@ -8,22 +8,17 @@ import { Component, OnDestroy } from '@angular/core';
 export class AppComponent implements OnDestroy {
   title = 'even-odd';
 
-  oddCounterValue: number = 1;
-  evenCounterValue: number = 0; // Initialize to 1 since the first emitted number will be 1
+  oddNumbers: number[] = [];
+  evenNumbers: number[]= []; // Initialize to 1 since the first emitted number will be 1
 
-  GameStarting(number: any) {
-    if (number % 2 === 0) {
-      this.evenCounterValue = number;
+  GameStarting(IncreNumber: number) {
+    if (IncreNumber % 2 === 0) {
+      this.evenNumbers.push(IncreNumber);
     } else {
-      this.oddCounterValue = number;
+      this.oddNumbers.push(IncreNumber);
     }
   }
 
-
-
-  GamePausing(){
-
-  }
   ngOnDestroy(): void {
 
   }
